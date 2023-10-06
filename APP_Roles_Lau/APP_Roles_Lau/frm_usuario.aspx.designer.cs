@@ -33,67 +33,94 @@ namespace APP_Roles_Lau
         protected global::System.Web.UI.WebControls.TextBox txt_codigo;
 
         /// <summary>
-        /// Control txt_PrimerNombre.
+        /// Control txt_nombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_PrimerNombre;
+        protected global::System.Web.UI.WebControls.TextBox txt_nombre;
 
         /// <summary>
-        /// Control txt_SegundoNombre.
+        /// Control txt_apellido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_SegundoNombre;
+        protected global::System.Web.UI.WebControls.TextBox txt_apellido;
 
         /// <summary>
-        /// Control txt_PrimerApellido.
+        /// Control txt_contacto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_PrimerApellido;
+        protected global::System.Web.UI.WebControls.TextBox txt_contacto;
 
         /// <summary>
-        /// Control txt_SegundoApellido.
+        /// Control txt_correo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_SegundoApellido;
+        protected global::System.Web.UI.WebControls.TextBox txt_correo;
 
         /// <summary>
-        /// Control txt_Contacto.
+        /// Control txt_direccion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Contacto;
+        protected global::System.Web.UI.WebControls.TextBox txt_direccion;
 
         /// <summary>
-        /// Control txt_Correo.
+        /// Control txt_salario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Correo;
+        protected global::System.Web.UI.WebControls.TextBox txt_salario;
 
         /// <summary>
-        /// Control txt_Sexo.
+        /// Control cbx_plazo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Sexo;
+        protected global::System.Web.UI.WebControls.DropDownList cbx_plazo;
+
+        /// <summary>
+        /// Control btn_registrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_registrar;
+
+        /// <summary>
+        /// Control btn_cancelar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_cancelar;
+
+        /// <summary>
+        /// Control btn_consultar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_consultar;
 
         /// <summary>
         /// Control lbl_mensaje.

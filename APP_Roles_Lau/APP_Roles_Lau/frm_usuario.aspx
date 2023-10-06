@@ -2,40 +2,50 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-    <link href="estilo.css" rel="stylesheet" type="text/css"/>
-    <style type="text/css">
-        .Nombre {}
-        .Apellido {}
-    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Formulario de Registro de Usuarios</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
-        <center>
-            <br/>
-            <div id="container">
-                <br />
-                <h3>Formulario de Registro de Usuarios</h3>
-                <asp:TextBox ID="txt_codigo" runat="server" placeholder="Código" CssClass="cajas" required="true"></asp:TextBox>*
-                <br />
-                <asp:TextBox ID="txt_PrimerNombre" runat="server" placeholder="Primer Nombre" CssClass="cajas" required="true"></asp:TextBox>*
-                <br />
-                <asp:TextBox ID="txt_SegundoNombre" runat="server" placeholder="" CssClass="Segundo Nombre" required="true" Height="35px" Width="419px"></asp:TextBox>*
-                <asp:TextBox ID="txt_PrimerApellido" runat="server" placeholder="Correo" CssClass="Primer Apellido" required="true" Height="26px" Width="417px"></asp:TextBox>*
-                <asp:TextBox ID="txt_SegundoApellido" runat="server" placeholder="Dirección" CssClass="Segundo Apellido" required="true" Height="30px" Width="415px"></asp:TextBox>*
-                <asp:TextBox ID="txt_Contacto" runat="server" placeholder="Contacto" CssClass="cajas"  required="true" Height="26px" Width="417px"></asp:TextBox>*
-                <asp:TextBox ID="txt_Correo" runat="server" placeholder="Correo" CssClass="cajas"  required="true" Height="26px" Width="417px"></asp:TextBox>*
-                <asp:TextBox ID="txt_Sexo" runat="server" placeholder="Correo" CssClass="cajas"  required="true" Height="26px" Width="417px"></asp:TextBox>*
-                <br />
-               <%-- <asp:Button ID="btn_registrar" runat="server" Text="Registrar" CssClass="btn" OnClick="btn_registrar_Click" />
-                <asp:Button ID="btn_cancelar" runat="server" Text="Cancelar" CssClass="btn-cancelar" OnClick="btn_cancelar_Click" />
-                <asp:Button ID="btn_consultar" runat="server" Text="Consultar" CssClass="btn-consultar" OnClick="btn_consultar_Click" />
-                <br />--%>
-                <asp:Label ID="lbl_mensaje" runat="server" Text=""></asp:Label>
-                <br />
+        <div id="container">
+            <h3>Formulario de Registro de Crédito</h3>
+            <div class="form-group">
+                <asp:TextBox ID="txt_codigo" runat="server" placeholder="ID *" required ="true"></asp:TextBox> 
             </div>
-        </center>
+            <div class="form-group">
+                <asp:TextBox ID="txt_nombre" runat="server" placeholder="Primer nombre*"></asp:TextBox> 
+            </div>
+            <div class="form-group">
+                <asp:TextBox ID="txt_apellido" runat="server" placeholder="Segundo Nombre *" ></asp:TextBox> 
+            </div>
+            <div class="form-group">
+                <asp:TextBox ID="txt_contacto" runat="server" placeholder="Primer Apellido*" ></asp:TextBox> 
+            </div>
+            <div class="form-group">
+                <asp:TextBox ID="txt_correo" runat="server" placeholder="Segundo Nombre *" ></asp:TextBox> 
+            </div>
+            <div class="form-group">
+                <asp:TextBox ID="txt_direccion" runat="server" placeholder="Contacto *" ></asp:TextBox> 
+            </div>
+            <div class="form-group">
+                <asp:TextBox ID="txt_salario" runat="server" placeholder="Correo *" ></asp:TextBox> 
+            </div>
+          
+
+            <asp:DropDownList ID="cbx_plazo" runat="server" CssClass="cbx">
+                <asp:ListItem Value="1 ">Hombre</asp:ListItem>
+                <asp:ListItem Value="2 ">Mujer</asp:ListItem>
+                <asp:ListItem Value="3 ">Prefiero no decirlo</asp:ListItem>
+            </asp:DropDownList>
+
+            <div class="btn-group">
+                <asp:Button ID="btn_registrar" runat="server" Text="Registrar" CssClass="btn"  />
+                <asp:Button ID="btn_cancelar" runat="server" Text="Cancelar" CssClass="btn btn-cancelar"  />
+                <asp:Button ID="btn_consultar" runat="server" Text="Consulta" CssClass="btn"  />
+            </div>
+            <asp:Label ID="lbl_mensaje" runat="server" ForeColor="Black"></asp:Label>
+        </div>
     </form>
 </body>
 </html>
