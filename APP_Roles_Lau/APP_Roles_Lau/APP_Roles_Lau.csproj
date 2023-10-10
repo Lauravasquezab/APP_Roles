@@ -68,11 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="estilo.css" />
+    <Content Include="Frm_AsignarRol.aspx" />
     <Content Include="frm_usuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="cls_conexion.cs" />
+    <Compile Include="Frm_AsignarRol.aspx.cs">
+      <DependentUpon>Frm_AsignarRol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Frm_AsignarRol.aspx.designer.cs">
+      <DependentUpon>Frm_AsignarRol.aspx</DependentUpon>
+    </Compile>
     <Compile Include="frm_usuario.aspx.cs">
       <DependentUpon>frm_usuario.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
