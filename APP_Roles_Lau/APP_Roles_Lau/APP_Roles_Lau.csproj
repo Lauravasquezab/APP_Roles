@@ -68,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="estilos.css" />
+    <Content Include="Estilos_Bienvenida.css" />
     <Content Include="estilos_Usuario.css" />
     <Content Include="Frm_AsignarRol.aspx" />
+    <Content Include="frm_Bienvenida.aspx" />
     <Content Include="frm_usuario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -81,6 +83,13 @@
     </Compile>
     <Compile Include="Frm_AsignarRol.aspx.designer.cs">
       <DependentUpon>Frm_AsignarRol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Bienvenida.aspx.cs">
+      <DependentUpon>frm_Bienvenida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Bienvenida.aspx.designer.cs">
+      <DependentUpon>frm_Bienvenida.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_usuario.aspx.cs">
       <DependentUpon>frm_usuario.aspx</DependentUpon>
