@@ -67,7 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="estilo.css" />
+    <Content Include="estilos.css" />
+    <Content Include="estilos_Usuario.css" />
     <Content Include="Frm_AsignarRol.aspx" />
     <Content Include="frm_usuario.aspx" />
     <Content Include="Web.config" />

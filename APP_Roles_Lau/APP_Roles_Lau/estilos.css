@@ -1,10 +1,10 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    background: rgb(62,143,157);
-    background: linear-gradient(90deg, rgba(62,143,157,1) 0%, rgba(29,253,149,1) 50%, rgba(71,193,154,1) 100%);
+    background: linear-gradient(90deg, #FFB6C1, #D8BFD8); /* Fondo en gradiente de rosado claro a morado más claro */
     margin: 0;
     padding: 0;
 }
+
 
 #container {
     width: 50%;
