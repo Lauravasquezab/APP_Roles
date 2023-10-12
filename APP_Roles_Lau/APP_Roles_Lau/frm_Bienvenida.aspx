@@ -9,8 +9,8 @@
     <header>
         <nav>
             <ul>
-                <li><a href="frm_usuario">Inicio</a></li>
-                <li><a href="#">Cursos</a></li>
+                <li><a href="frm_usuario.aspx">Registro de usuarios</a></li>
+                <li><a href="AsignarRol.apx">Asignar Rol</a></li>
                 <li><a href="#">Acerca de nosotros</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
